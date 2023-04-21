@@ -9,7 +9,7 @@ int main(void)
 
 	while (letter <= 'z')
 	{
-		if (letter != 'q' || 'e')
+		if (letter != 'q' && 'e')
 		{
 			putchar(letter);
 		}
