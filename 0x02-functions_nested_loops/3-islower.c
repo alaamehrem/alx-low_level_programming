@@ -2,7 +2,7 @@
 /**
  * islower - checks for lowercase character
  */
-int _islower(int c);
+int _islower(int c)
 {
 	if ('a' =< c <= 'z')
 	{
