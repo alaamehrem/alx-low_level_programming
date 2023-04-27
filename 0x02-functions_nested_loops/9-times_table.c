@@ -14,21 +14,21 @@ void times_table(void)
         r = i*j;
         if (r<10 && j!=0)
         {
-            putchar(r + '0');
-            putchar(',');
-            putchar(' ');
-            putchar(' ');
+            _putchar(r + '0');
+            _putchar(',');
+            _putchar(' ');
+            _putchar(' ');
         }
         else
         {
-            putchar((r/10) + '0');
-            putchar((r%10) + '0');
-            putchar(',');
-            putchar(' ');
+            _putchar((r/10) + '0');
+            _putchar((r%10) + '0');
+            _putchar(',');
+            _putchar(' ');
         }
 
         }
-    putchar('\n');
+    _putchar('\n');
     }
 }
 
