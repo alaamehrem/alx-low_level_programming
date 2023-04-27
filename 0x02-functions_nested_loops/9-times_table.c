@@ -13,28 +13,28 @@ void times_table(void)
         int r;
 
         r = i*j;
-	if (j == 9 && r < 10)
+	if (j == 0 && r < 10)
 	{
 		_putchar(r + '0');
 	}
-	else if (j==9 && r >10)
+	else if (j==0 && r >10)
 	{
 		_putchar((r/10) + '0');
 		_putchar((r%10) + '0');
 	}
 	else if (r < 10 && j != 9)
         {
-		_putchar(r + '0');
 		_putchar(',');
 		_putchar(' ');
 		_putchar(' ');
+		_putchar(r + '0');
         }
         else
-        {
-		_putchar((r/10) + '0');
-		_putchar((r%10) + '0');
+	{
 		_putchar(',');
 		_putchar(' ');
+		_putchar((r/10) + '0');
+		_putchar((r%10) + '0');
         }
         }
     _putchar('\n');
