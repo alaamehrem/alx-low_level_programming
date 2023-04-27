@@ -3,7 +3,6 @@
 /**
  * print_to_98 - zeft
  * @n: the number
- * @i: the counter
  */
 void print_to_98(int n)
 {
@@ -20,9 +19,16 @@ void print_to_98(int n)
 			printf("%d, ", i);
 		}
 	}
-	for (i = n; i > 98; i--)
+	for (i = n; i >= 98; i--)
 	{
-		printf("%d, ", i);
+		if (i == 98)
+		{
+			printf("%d", i);
+		}
+		else
+		{
+			printf("%d, ", i);
+		}
 	}
 	printf("\n");
 }
