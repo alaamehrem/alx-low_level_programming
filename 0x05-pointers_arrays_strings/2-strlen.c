@@ -6,10 +6,12 @@
  */
 int _strlen(char *s)
 {
-	int length;
+	int i = 0;
 
-	char a[] = s;
-	length= sizeof(a)/sizeof(a[0]);
-	printf("%d,%d\n",sizeof(a),sizeof(a[0]));
-	return (length);
+	while(*s != '\0')
+	{
+		i++;
+		s++;
+	}
+	return (i);
 }
