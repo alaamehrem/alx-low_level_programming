@@ -1,5 +1,9 @@
 #include "main.h"
-void _puts(char *str);
+/**
+ * _puts - puts string
+ * @str: value
+ */
+void _puts(char *str)
 {
 	char *str;
 
