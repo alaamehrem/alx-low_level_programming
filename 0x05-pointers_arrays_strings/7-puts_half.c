@@ -15,10 +15,10 @@ void puts_half(char *str)
 		a++;
 	}
 	a = 0;
+	n = i;
 	if (i % 2 == 1)
 		i = i + 1;
-	n = i / 2;
-	for (i=0; i < n;i++)
+	for (i = i / 2 ; i < n;i++)
 	{
 		_putchar(str[a]);
 		a++;
