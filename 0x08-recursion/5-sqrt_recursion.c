@@ -4,7 +4,7 @@
  * @n: input
  * Return: result
  */
-int act_sqrt(int n, int i);
+int act_sqrt(int n, int a);
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
