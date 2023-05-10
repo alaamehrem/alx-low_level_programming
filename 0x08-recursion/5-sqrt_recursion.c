@@ -2,6 +2,7 @@
 /**
  * _sqrt_recursion - returns the natural square root of a number
  * @n: input
+ * @a: counter
  * Return: result
  */
 int act_sqrt(int n, int a);
@@ -16,7 +17,7 @@ int _sqrt_recursion(int n)
  * act_sqrt - recurses to find the natural
  * square root of a number
  * @n: number
- * @a: iterator
+ * @a: counter
  * Return: the result
  */
 int act_sqrt(int n, int a)
