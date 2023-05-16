@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * *create_array - creates an array of chars, and initializes it with a specific char
+ * *create_array - creates an array of chars
  * @size: size of array
  * @c: special character
  * Return: 0 success
@@ -18,4 +18,4 @@ char *create_array(unsigned int size, char c)
 	for (i = 0; i < size; i++)
 	t[i] = c;
 	return (t);
-}		
+}
